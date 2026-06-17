@@ -37,3 +37,21 @@ Practical: Successfully identified an injection point and executed a basic paylo
  Permissions - rwx.r-read, w-write  & x-execute.rwx(<-Owner)rwx(<-Group)rwx(<-Others).4-read 2-write 1-execute.
  We use su to switch to a user. su -l to siwtich to the home dir of the new user.
  Common Directories:Directory(virtual container used to store files and folders)./etc(etcetera)- stores system files used by OS .Passswords in linux are stored in an encrypted format known as shao512. /var(variable data) stores data frequently accessed or written by services or apps running on the system . /root actual home for the root system user.Home dir for the root user. /tmp store data that is only needed to be accessed once or twice.Any user can write to this folder by default (useful in pentesting)Once we have access to a machine its a good place to store things like enumeration scripts.
+ 1. Terminal Text Editors
+- How to use editors like Nano and Vi to change files without a desktop interface.
+
+ 2. General Utilities
+- Downloading files via the command line.
+- Serving content instantly using a Python web server: 'python3 -m http.server 8000'.
+
+ 3. Process Management
+- How to view, monitor, and stop active programs using 'ps', 'top', and 'kill'.
+
+ 4. Automation with Crontabs
+- Setting up scheduled tasks to run automatically at specific times.
+
+### 5. Package Management
+- Installing, updating, and removing software using tools like 'apt'.
+
+### 6. System Logs
+- Reviewing logs in  '/var/log' to troubleshoot errors and see who is accessing the system.
