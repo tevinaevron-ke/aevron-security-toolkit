@@ -50,8 +50,34 @@ Practical: Successfully identified an injection point and executed a basic paylo
  4. Automation with Crontabs
 - Setting up scheduled tasks to run automatically at specific times.
 
-### 5. Package Management
+ 5. Package Management
 - Installing, updating, and removing software using tools like 'apt'.
-
-### 6. System Logs
+ 6. System Logs
 - Reviewing logs in  '/var/log' to troubleshoot errors and see who is accessing the system.
+Study Notes: Client-Server Architecture & State Management
+1. Client-Server Model
+
+Client: The requester (e.g., your smartphone, laptop, or browser). It asks for data or services.
+Server: The provider (a powerful computer). It stores data and "serves" it back to the client upon request.
+The Interaction: A simple "Request-Response" cycle.
+
+2. Server Identification
+
+IP Address: The unique digital address of a server on a network. While we use domain names (like google.com), computers use IP addresses to find each other.
+
+3. Statelessness vs. Statefulness
+
+Stateless (HTTP): By default, the web is "forgetful." Every request is treated as if it’s the first time the client and server are meeting.
+Stateful: Modern apps need to "remember" users (e.g., keeping you logged in). To do this, they use mechanisms like Cookies and Tokens.
+
+4. Cookies & Authentication
+
+The Mechanism: When you log in, the server sends a small piece of data (a Cookie/Token) to your browser.
+The Benefit: Your browser attaches this "digital gate pass" to every future request.
+The Result: You don't have to re-authenticate (log in) every time you refresh the page or click a new link.
+
+5. Kenyan Context Analogy
+
+Client: The customer at a Kibanda.
+Server: The shopkeeper with the stock.
+Cookie: A "loyalty card" or "gate pass" that tells the shopkeeper they already know who you are, so you don't have to introduce yourself every time you walk in.
